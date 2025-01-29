@@ -1,0 +1,173 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Navigation Menu */
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Header Section */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Section */
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Specific Page Styles */
+  
+  #index {
+    background-image: url('rolex-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #history {
+    background-color: #f7f7f7;
+  }
+  
+  #types {
+    background-color: #fff;
+  }
+  
+  #movements {
+    background-color: #f7f7f7;
+  }
+  
+  #materials {
+    background-color: #fff;
+  }
+  
+  #prices {
+    background-color: #f7f7f7;
+  }
+  
+  #maintenance {
+    background-color: #fff;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+    main {
+      flex-direction: column;
+    }
+    section {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      padding: 10px;
+    }
+    nav ul {
+      padding: 10px;
+    }
+    main {
+      padding: 10px;
+    }
+    section {
+      padding: 10px;
+    }
+  }
